@@ -344,6 +344,11 @@ header .container nav ul li a:hover
     top: 150px;
     left: 90px;
 }
+@media (max-width: 767px) {
+    .design img {
+        display: none;
+    }
+}
 .design .text {
     position: absolute;
     right: 0%;
@@ -366,6 +371,11 @@ header .container nav ul li a:hover
     margin-right: 10px;
     position: relative;
     top: 1px;
+}
+@media (max-width: 767px) {
+    .design .text {
+        left: 0;
+    }
 }
 /*end design*/
 /*start portfolio*/
